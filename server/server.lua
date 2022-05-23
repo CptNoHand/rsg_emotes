@@ -45,8 +45,6 @@ exports['qbr-core']:AddCommand("flex", "does a flex emote", {}, false, function(
 	TriggerClientEvent('rsg_emotes:client:doemote', src, -773960361)
 end)
 
--- need to check from here
-
 exports['qbr-core']:AddCommand("followme", "does a follow me emote", {}, false, function(source)
 	src = source
 	TriggerClientEvent('rsg_emotes:client:doemote', src, 1115379199)
